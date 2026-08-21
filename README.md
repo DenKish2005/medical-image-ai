@@ -3,6 +3,7 @@
 AI-Based Medical Image Classification and Diagnostic Report Generation
 
 CSCI 408 Senior Project I — Fall 2026
+
 CSCI 409 Senior Project II — Spring 2027
 
 ## Goal
