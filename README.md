@@ -17,7 +17,7 @@ and generates diagnostic report text.
 - Daniyar Kshibekov
 - Ayaulym Zhumagul
 - Daulet Kaskenov
-- Asel
+- Assel Derbissova
 
 ## Supervisor
 
