@@ -1,0 +1,7 @@
+# Research outputs and local-only datasets (tracked originals are not removed).
+/runs/
+/data/
+*.pt
+*.pth
+__pycache__/
+.pytest_cache/

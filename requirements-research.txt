@@ -1,0 +1,9 @@
+# Additional opt-in dependencies for the CXR feature-compression research module.
+# Match torch/torchvision versions to the existing CUDA/CPU environment.
+torch>=2.2,<3
+torchvision>=0.17,<1
+numpy>=1.24,<3
+pandas>=2.0,<4
+Pillow>=10,<13
+scikit-learn>=1.3,<2
+pytest>=8,<10
