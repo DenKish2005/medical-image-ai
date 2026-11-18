@@ -1,0 +1,25 @@
+# --- MIMIC-CXR / PhysioNet data: never commit (data use agreement) ---
+R2Gen/data/
+data/
+*.jpg
+*.dcm
+mimic-cxr-*.csv
+mimic-cxr-*.csv.gz
+mimic-cxr-reports.zip
+annotation.json
+subset*.json
+download_urls.txt
+# per-study outputs contain report text
+per_study.json
+teacher_reports.json
+bitstreams/
+# cached features and model weights (large, derived from MIMIC images)
+*.npy
+*.pt
+*.pth
+results/mimic_features/
+results/ta_features*/
+# python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

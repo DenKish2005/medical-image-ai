@@ -1,0 +1,706 @@
+[
+  {
+    "epoch": 0,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 3607.95289453125,
+      "actual_bits_per_study": 3949.792,
+      "actual_bytes_per_study": 493.724,
+      "feature_nmse": 0.6798027496337891,
+      "text_nll": 1.3768919281214476,
+      "text_nll_weighted": 1.3548436738103629,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 4.62959474963379
+    }
+  },
+  {
+    "epoch": 1,
+    "mu": 492.34722360154706,
+    "train": {
+      "loss": 55458.43378853417,
+      "bits": 1544.9679632161458,
+      "bits_round": 1000.4059440917969,
+      "feat": 0.64602192902565,
+      "wnll": 0.0
+    },
+    "sec": 19.573943853378296,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 631.4417861328125,
+      "actual_bits_per_study": 787.912,
+      "actual_bytes_per_study": 98.489,
+      "feature_nmse": 0.6492364406585693,
+      "text_nll": 1.398671680688858,
+      "text_nll_weighted": 1.3753894754052163,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 387926.93487878283
+    }
+  },
+  {
+    "epoch": 2,
+    "mu": 999.9999999999998,
+    "train": {
+      "loss": 1041357.5066666667,
+      "bits": 1075.2689912109374,
+      "bits_round": 577.5851149902344,
+      "feat": 0.6540635729630788,
+      "wnll": 0.0
+    },
+    "sec": 19.160712003707886,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 518.9257534179687,
+      "actual_bits_per_study": 689.896,
+      "actual_bytes_per_study": 86.237,
+      "feature_nmse": 0.65994979763031,
+      "text_nll": 1.3938205824941396,
+      "text_nll_weighted": 1.3719996887370944,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 689896.6599497974
+    }
+  },
+  {
+    "epoch": 3,
+    "mu": 999.9999999999998,
+    "train": {
+      "loss": 949159.0346666666,
+      "bits": 949.1583739420573,
+      "bits_round": 458.0319957682292,
+      "feat": 0.6609156024456024,
+      "wnll": 0.0
+    },
+    "sec": 18.194475889205933,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 398.43973046875,
+      "actual_bits_per_study": 561.736,
+      "actual_bytes_per_study": 70.217,
+      "feature_nmse": 0.6648112506866455,
+      "text_nll": 1.3897441989332437,
+      "text_nll_weighted": 1.3681107584908605,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 561736.6648112505
+    }
+  },
+  {
+    "epoch": 4,
+    "mu": 680.8321108904422,
+    "train": {
+      "loss": 786219.9296666667,
+      "bits": 828.4585905761719,
+      "bits_round": 340.47971427408856,
+      "feat": 0.6646178639729817,
+      "wnll": 0.0
+    },
+    "sec": 18.472655296325684,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 286.3711408691406,
+      "actual_bits_per_study": 433.32,
+      "actual_bytes_per_study": 54.165,
+      "feature_nmse": 0.6682439007759094,
+      "text_nll": 1.3867450279891491,
+      "text_nll_weighted": 1.3651024200469255,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 295018.8385349472
+    }
+  },
+  {
+    "epoch": 5,
+    "mu": 12.087949125606206,
+    "train": {
+      "loss": 160679.6887408854,
+      "bits": 725.0524211425782,
+      "bits_round": 236.18908984375,
+      "feat": 0.6670149880250295,
+      "wnll": 0.0
+    },
+    "sec": 18.288797616958618,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 192.23706091308594,
+      "actual_bits_per_study": 337.384,
+      "actual_bytes_per_study": 42.173,
+      "feature_nmse": 0.6700020089149475,
+      "text_nll": 1.3854357648938895,
+      "text_nll_weighted": 1.3637699120417237,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 4078.95062980244
+    }
+  },
+  {
+    "epoch": 6,
+    "mu": 0.00506115817215459,
+    "train": {
+      "loss": 1258.7096006628672,
+      "bits": 647.1976606445312,
+      "bits_round": 153.30391697184245,
+      "feat": 0.6421550490061442,
+      "wnll": 0.0
+    },
+    "sec": 18.286183834075928,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 120.37812585449218,
+      "actual_bits_per_study": 273.288,
+      "actual_bytes_per_study": 34.161,
+      "feature_nmse": 0.5394565386772155,
+      "text_nll": 1.3829718526899815,
+      "text_nll_weighted": 1.352533031515777,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 1.9226103332289992
+    }
+  },
+  {
+    "epoch": 7,
+    "mu": 1.6989682229222323e-05,
+    "train": {
+      "loss": 0.716447379887104,
+      "bits": 873.4788425292969,
+      "bits_round": 202.43664521280925,
+      "feat": 0.362163260102272,
+      "wnll": 0.0
+    },
+    "sec": 18.428405046463013,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 369.26768237304685,
+      "actual_bits_per_study": 503.488,
+      "actual_bytes_per_study": 62.936,
+      "feature_nmse": 0.3883834297657013,
+      "text_nll": 1.377375327512622,
+      "text_nll_weighted": 1.3415767955183984,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.39693753089192796
+    }
+  },
+  {
+    "epoch": 8,
+    "mu": 5.6783007193340685e-05,
+    "train": {
+      "loss": 0.29697752225399016,
+      "bits": 1278.5767259114584,
+      "bits_round": 410.870853515625,
+      "feat": 0.2506746150453885,
+      "wnll": 0.0
+    },
+    "sec": 17.83474636077881,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 380.73337573242185,
+      "actual_bits_per_study": 535.592,
+      "actual_bytes_per_study": 66.949,
+      "feature_nmse": 0.3099394898414612,
+      "text_nll": 1.3482470445558428,
+      "text_nll_weighted": 1.3104279916137458,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.34035201423015693
+    }
+  },
+  {
+    "epoch": 9,
+    "mu": 8.872456812025746e-05,
+    "train": {
+      "loss": 0.2920555989742279,
+      "bits": 1080.8362805989584,
+      "bits_round": 360.92681652832033,
+      "feat": 0.21173687136173247,
+      "wnll": 0.0
+    },
+    "sec": 18.83010697364807,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 354.63340087890623,
+      "actual_bits_per_study": 512.68,
+      "actual_bytes_per_study": 64.085,
+      "feature_nmse": 0.25723627185821535,
+      "text_nll": 1.3336162946522236,
+      "text_nll_weighted": 1.2959953175485135,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.3027235834421089
+    }
+  },
+  {
+    "epoch": 10,
+    "mu": 0.00010175854621897254,
+    "train": {
+      "loss": 0.29307639332612356,
+      "bits": 990.9304007161459,
+      "bits_round": 346.8358698730469,
+      "feat": 0.19619536594549816,
+      "wnll": 0.0
+    },
+    "sec": 18.075782299041748,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 347.85615478515626,
+      "actual_bits_per_study": 482.376,
+      "actual_bytes_per_study": 60.297,
+      "feature_nmse": 0.23659487187862396,
+      "text_nll": 1.3289062440618873,
+      "text_nll_weighted": 1.2911953493095933,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.28568075236954704
+    }
+  },
+  {
+    "epoch": 11,
+    "mu": 8.872436620252315e-05,
+    "train": {
+      "loss": 0.2725611998637517,
+      "bits": 992.7831285807291,
+      "bits_round": 361.2269010823568,
+      "feat": 0.18524744786818823,
+      "wnll": 0.0
+    },
+    "sec": 18.83531427383423,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 381.65266064453124,
+      "actual_bits_per_study": 525.112,
+      "actual_bytes_per_study": 65.639,
+      "feature_nmse": 0.21875162804126738,
+      "text_nll": 1.3180674999505282,
+      "text_nll_weighted": 1.2800326514095068,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.2653418574266067
+    }
+  },
+  {
+    "epoch": 12,
+    "mu": 0.00010159397809847301,
+    "train": {
+      "loss": 0.27277792207400003,
+      "bits": 978.6807647298177,
+      "bits_round": 361.49214335123696,
+      "feat": 0.17573389947414397,
+      "wnll": 0.0
+    },
+    "sec": 18.702773094177246,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 358.17675146484373,
+      "actual_bits_per_study": 514.6,
+      "actual_bytes_per_study": 64.325,
+      "feature_nmse": 0.2115152554512024,
+      "text_nll": 1.3138273858428002,
+      "text_nll_weighted": 1.2763362185806035,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.2637955165806766
+    }
+  },
+  {
+    "epoch": 13,
+    "mu": 0.00010482338334597993,
+    "train": {
+      "loss": 0.2747687005798022,
+      "bits": 952.0660252278645,
+      "bits_round": 344.94415368652346,
+      "feat": 0.17225285373131435,
+      "wnll": 0.0
+    },
+    "sec": 18.244406700134277,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 346.4358862304687,
+      "actual_bits_per_study": 484.904,
+      "actual_bytes_per_study": 60.613,
+      "feature_nmse": 0.20588570737838746,
+      "text_nll": 1.3123490056693554,
+      "text_nll_weighted": 1.2745228787660599,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.25671498525638653
+    }
+  },
+  {
+    "epoch": 14,
+    "mu": 8.650020582596704e-05,
+    "train": {
+      "loss": 0.25116501303513844,
+      "bits": 965.1265874837239,
+      "bits_round": 355.5502450358073,
+      "feat": 0.16448902675509453,
+      "wnll": 0.0
+    },
+    "sec": 18.343059539794922,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 372.2626171875,
+      "actual_bits_per_study": 521.384,
+      "actual_bytes_per_study": 65.173,
+      "feature_nmse": 0.19448891127109527,
+      "text_nll": 1.3047167101055384,
+      "text_nll_weighted": 1.2668845705576242,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.23958873458546126
+    }
+  },
+  {
+    "epoch": 15,
+    "mu": 0.00010030031171606823,
+    "train": {
+      "loss": 0.25364407181739806,
+      "bits": 958.3893600260417,
+      "bits_round": 356.1656376139323,
+      "feat": 0.1604870498875777,
+      "wnll": 0.0
+    },
+    "sec": 18.165106296539307,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 356.30554541015624,
+      "actual_bits_per_study": 484.808,
+      "actual_bytes_per_study": 60.601,
+      "feature_nmse": 0.19240638077259065,
+      "text_nll": 1.3036887392029166,
+      "text_nll_weighted": 1.2660016281045974,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.24103277429503425
+    }
+  },
+  {
+    "epoch": 16,
+    "mu": 8.347718495971778e-05,
+    "train": {
+      "loss": 0.23817330366373063,
+      "bits": 965.8412357584635,
+      "bits_round": 365.8607607014974,
+      "feat": 0.15601533072193463,
+      "wnll": 0.0
+    },
+    "sec": 18.427152156829834,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 380.62956201171875,
+      "actual_bits_per_study": 516.968,
+      "actual_bytes_per_study": 64.621,
+      "feature_nmse": 0.1835580550432205,
+      "text_nll": 1.301860210455954,
+      "text_nll_weighted": 1.2635817203260957,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.2267130883974759
+    }
+  },
+  {
+    "epoch": 17,
+    "mu": 9.53103341074202e-05,
+    "train": {
+      "loss": 0.24201393870512644,
+      "bits": 960.5436283365885,
+      "bits_round": 368.3991102294922,
+      "feat": 0.15324169398347537,
+      "wnll": 0.0
+    },
+    "sec": 18.171412467956543,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 366.54800830078125,
+      "actual_bits_per_study": 509.928,
+      "actual_bytes_per_study": 63.741,
+      "feature_nmse": 0.18188304674625397,
+      "text_nll": 1.3014207801744342,
+      "text_nll_weighted": 1.2635569004081189,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.23048445479698254
+    }
+  },
+  {
+    "epoch": 18,
+    "mu": 9.867997084145846e-05,
+    "train": {
+      "loss": 0.24567632474501927,
+      "bits": 943.3393430175781,
+      "bits_round": 358.0102002360026,
+      "feat": 0.15213359419504802,
+      "wnll": 0.0
+    },
+    "sec": 18.588131189346313,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 361.073927734375,
+      "actual_bits_per_study": 509.064,
+      "actual_bytes_per_study": 63.633,
+      "feature_nmse": 0.17970921409130097,
+      "text_nll": 1.3021840641573073,
+      "text_nll_weighted": 1.26422553422302,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.2299436347677372
+    }
+  },
+  {
+    "epoch": 19,
+    "mu": 0.00010146687353917414,
+    "train": {
+      "loss": 0.24553284239768983,
+      "bits": 933.9169142252604,
+      "bits_round": 353.17882344563805,
+      "feat": 0.15094959554076195,
+      "wnll": 0.0
+    },
+    "sec": 17.642040491104126,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 353.4438913574219,
+      "actual_bits_per_study": 505.512,
+      "actual_bytes_per_study": 63.189,
+      "feature_nmse": 0.17916317713260652,
+      "text_nll": 1.3003949008136988,
+      "text_nll_weighted": 1.2618407286256552,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.2304558993091415
+    }
+  },
+  {
+    "epoch": 20,
+    "mu": 0.0001039256479663954,
+    "train": {
+      "loss": 0.2457933482527733,
+      "bits": 924.9694925130208,
+      "bits_round": 348.9756649576823,
+      "feat": 0.14970483146111171,
+      "wnll": 0.0
+    },
+    "sec": 18.8782479763031,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 351.49895068359376,
+      "actual_bits_per_study": 505.64,
+      "actual_bytes_per_study": 63.205,
+      "feature_nmse": 0.17746134126186372,
+      "text_nll": 1.3017009032294153,
+      "text_nll_weighted": 1.2630816367864608,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.2300103058995919
+    }
+  },
+  {
+    "epoch": 21,
+    "mu": 0.00010402656165340809,
+    "train": {
+      "loss": 0.24593492811918258,
+      "bits": 917.784766764323,
+      "bits_round": 346.11958728027344,
+      "feat": 0.14886377854148547,
+      "wnll": 0.0
+    },
+    "sec": 18.391323804855347,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 350.8366220703125,
+      "actual_bits_per_study": 506.664,
+      "actual_bytes_per_study": 63.333,
+      "feature_nmse": 0.17574498069286346,
+      "text_nll": 1.2988854195028543,
+      "text_nll_weighted": 1.2605590398460627,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.22845149452642582
+    }
+  },
+  {
+    "epoch": 22,
+    "mu": 0.00010595849283635094,
+    "train": {
+      "loss": 0.24492078898350397,
+      "bits": 913.9040358886718,
+      "bits_round": 345.07282950846354,
+      "feat": 0.1478418879111608,
+      "wnll": 0.0
+    },
+    "sec": 18.414077758789062,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 349.67344677734377,
+      "actual_bits_per_study": 506.088,
+      "actual_bytes_per_study": 63.261,
+      "feature_nmse": 0.17484196078777314,
+      "text_nll": 1.2990288404747843,
+      "text_nll_weighted": 1.26089325581491,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.22846628251033632
+    }
+  },
+  {
+    "epoch": 23,
+    "mu": 0.00010743437410111279,
+    "train": {
+      "loss": 0.24434115892648697,
+      "bits": 910.0758252766927,
+      "bits_round": 344.26654951985677,
+      "feat": 0.14708529517054558,
+      "wnll": 0.0
+    },
+    "sec": 18.799768924713135,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 347.5730126953125,
+      "actual_bits_per_study": 504.968,
+      "actual_bytes_per_study": 63.121,
+      "feature_nmse": 0.1741846194267273,
+      "text_nll": 1.297918339394033,
+      "text_nll_weighted": 1.2597137662060558,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.22843554044781803
+    }
+  },
+  {
+    "epoch": 24,
+    "mu": 0.00010825356580145303,
+    "train": {
+      "loss": 0.2446871055761973,
+      "bits": 906.3978238932292,
+      "bits_round": 343.1619182535807,
+      "feat": 0.14651466140151023,
+      "wnll": 0.0
+    },
+    "sec": 18.25714111328125,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 347.64081494140623,
+      "actual_bits_per_study": 505.512,
+      "actual_bytes_per_study": 63.189,
+      "feature_nmse": 0.17332299447059632,
+      "text_nll": 1.2975880354121327,
+      "text_nll_weighted": 1.2592817658521236,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.22804647102602044
+    }
+  },
+  {
+    "epoch": 25,
+    "mu": 0.00010823398898773783,
+    "train": {
+      "loss": 0.24431864509979884,
+      "bits": 903.5408677571614,
+      "bits_round": 342.3370133056641,
+      "feat": 0.14599351837237676,
+      "wnll": 0.0
+    },
+    "sec": 18.59779167175293,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 346.4779431152344,
+      "actual_bits_per_study": 505.448,
+      "actual_bytes_per_study": 63.181,
+      "feature_nmse": 0.1731175285577774,
+      "text_nll": 1.297874846301973,
+      "text_nll_weighted": 1.2593829458989203,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.2278241818236515
+    }
+  },
+  {
+    "epoch": 26,
+    "mu": 0.00010935317831681827,
+    "train": {
+      "loss": 0.2443404103120168,
+      "bits": 900.8904103190105,
+      "bits_round": 341.59103588867185,
+      "feat": 0.14561437324682872,
+      "wnll": 0.0
+    },
+    "sec": 17.96935749053955,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 346.0019733886719,
+      "actual_bits_per_study": 504.904,
+      "actual_bytes_per_study": 63.113,
+      "feature_nmse": 0.17226523590087892,
+      "text_nll": 1.2976054625213147,
+      "text_nll_weighted": 1.259445707578212,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.22747809304575373
+    }
+  },
+  {
+    "epoch": 27,
+    "mu": 0.00010893248508804953,
+    "train": {
+      "loss": 0.24417993179957073,
+      "bits": 899.0755720214844,
+      "bits_round": 341.17163720703127,
+      "feat": 0.14536998003721238,
+      "wnll": 0.0
+    },
+    "sec": 18.417974710464478,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 344.86330615234374,
+      "actual_bits_per_study": 503.624,
+      "actual_bytes_per_study": 62.953,
+      "feature_nmse": 0.17226014292240144,
+      "text_nll": 1.2971549813225864,
+      "text_nll_weighted": 1.2590287416428327,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.2271211567923853
+    }
+  },
+  {
+    "epoch": 28,
+    "mu": 0.00011002146388960484,
+    "train": {
+      "loss": 0.24294351456562677,
+      "bits": 899.0625717773438,
+      "bits_round": 341.7904715576172,
+      "feat": 0.1448520596822103,
+      "wnll": 0.0
+    },
+    "sec": 18.085835218429565,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 346.39333837890626,
+      "actual_bits_per_study": 505.512,
+      "actual_bytes_per_study": 63.189,
+      "feature_nmse": 0.17153521072864533,
+      "text_nll": 1.2974222642183304,
+      "text_nll_weighted": 1.2591062923781573,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.22715238098240725
+    }
+  },
+  {
+    "epoch": 29,
+    "mu": 0.00011015723790495127,
+    "train": {
+      "loss": 0.24406918317079543,
+      "bits": 896.5909471028646,
+      "bits_round": 341.1188584391276,
+      "feat": 0.14461048996448517,
+      "wnll": 0.0
+    },
+    "sec": 18.654383182525635,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 343.95261889648435,
+      "actual_bits_per_study": 503.848,
+      "actual_bytes_per_study": 62.981,
+      "feature_nmse": 0.17169261133670807,
+      "text_nll": 1.297122291430831,
+      "text_nll_weighted": 1.2584968598634005,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.22719511534064196
+    }
+  },
+  {
+    "epoch": 30,
+    "mu": 0.00011161223878348631,
+    "train": {
+      "loss": 0.24345908617973328,
+      "bits": 895.4778008626303,
+      "bits_round": 340.73508374023436,
+      "feat": 0.14432665605346362,
+      "wnll": 0.0
+    },
+    "sec": 17.984477758407593,
+    "val": {
+      "studies": 1000,
+      "est_bits_per_study": 344.7999956054687,
+      "actual_bits_per_study": 503.816,
+      "actual_bytes_per_study": 62.977,
+      "feature_nmse": 0.17112778317928315,
+      "text_nll": 1.2971222443878652,
+      "text_nll_weighted": 1.2588560971021652,
+      "text_nll_uncompressed": 1.2576267130672931,
+      "objective": 0.22735981487422408
+    }
+  }
+]

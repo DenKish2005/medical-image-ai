@@ -1,0 +1,160 @@
+{
+  "train_args": {
+    "stage": "baseline",
+    "feature_dir": "../results/mimic_features",
+    "out_dir": "../results/mimic_full/B_r2000",
+    "init": null,
+    "c_y": 64,
+    "hidden": 512,
+    "rate_mode": "target",
+    "lambda_rate": 0.001,
+    "target_bits": 2000.0,
+    "rate_tol": 0.1,
+    "mu_init": 0.001,
+    "mu_lr": 0.02,
+    "lambda_f": 1.0,
+    "lambda_t": 0.0,
+    "alpha": 2.0,
+    "feature_norm": "global",
+    "quant": "noise",
+    "epochs": 30,
+    "batch_size": 16,
+    "lr": 0.0001,
+    "aux_lr": 0.001,
+    "clip": 1.0,
+    "val_every": 1,
+    "max_train": 0,
+    "max_val": 0,
+    "seed": 1234,
+    "device": "cuda"
+  },
+  "r2gen_args": {
+    "image_dir": "data/mimic_cxr/images/",
+    "ann_path": "data/mimic_cxr/annotation.json",
+    "dataset_name": "mimic_cxr",
+    "max_seq_length": 100,
+    "threshold": 10,
+    "num_workers": 2,
+    "batch_size": 16,
+    "visual_extractor": "resnet101",
+    "visual_extractor_pretrained": false,
+    "d_model": 512,
+    "d_ff": 512,
+    "d_vf": 2048,
+    "num_heads": 8,
+    "num_layers": 3,
+    "dropout": 0.1,
+    "logit_layers": 1,
+    "bos_idx": 0,
+    "eos_idx": 0,
+    "pad_idx": 0,
+    "use_bn": 0,
+    "drop_prob_lm": 0.5,
+    "rm_num_slots": 3,
+    "rm_num_heads": 8,
+    "rm_d_model": 512,
+    "sample_method": "beam_search",
+    "beam_size": 3,
+    "temperature": 1.0,
+    "sample_n": 1,
+    "group_size": 1,
+    "output_logsoftmax": 1,
+    "decoding_constraint": 0,
+    "block_trigrams": 1,
+    "n_gpu": 1,
+    "epochs": 100,
+    "save_dir": "results/iu_xray",
+    "record_dir": "records/",
+    "save_period": 1,
+    "monitor_mode": "max",
+    "monitor_metric": "BLEU_4",
+    "early_stop": 50,
+    "optim": "Adam",
+    "lr_ve": 5e-05,
+    "lr_ed": 0.0001,
+    "weight_decay": 5e-05,
+    "amsgrad": true,
+    "lr_scheduler": "StepLR",
+    "step_size": 50,
+    "gamma": 0.1,
+    "seed": 9233,
+    "resume": null,
+    "load": "data/model_mimic_cxr.pth"
+  },
+  "r2gen_checkpoint_sha256": "ae041ee8c7ada2d8dca747f8a6e639e071d565001fdcc200a9e5a91b2770506f",
+  "codec_config": {
+    "in_channels": 2048,
+    "hidden": 512,
+    "c_y": 64,
+    "c_z": 32
+  },
+  "feature_manifest": {
+    "r2gen_checkpoint": "data/model_mimic_cxr.pth",
+    "r2gen_checkpoint_sha256": "ae041ee8c7ada2d8dca747f8a6e639e071d565001fdcc200a9e5a91b2770506f",
+    "annotation_sha256": "9268856a8e6011bf6201590c14e7a5290420fd8b122d3287b927acfbf6b080ef",
+    "transform": "Resize((224,224)) ToTensor Normalize(ImageNet)",
+    "layer": "visual_extractor.model (ResNet-101 children[:-2]) = layer4 output",
+    "dtype": "float32",
+    "splits": {
+      "train": {
+        "n": 12000,
+        "shape": [
+          12000,
+          1,
+          2048,
+          7,
+          7
+        ]
+      },
+      "val": {
+        "n": 1000,
+        "shape": [
+          1000,
+          1,
+          2048,
+          7,
+          7
+        ]
+      },
+      "test": {
+        "n": 3858,
+        "shape": [
+          3858,
+          1,
+          2048,
+          7,
+          7
+        ]
+      }
+    },
+    "torch_version": "2.11.0+cu128",
+    "decoding": {
+      "sample_method": "beam_search",
+      "beam_size": 3,
+      "block_trigrams": 1,
+      "max_seq_length": 100,
+      "temperature": 1.0,
+      "sample_n": 1
+    },
+    "verify": {
+      "n": 8,
+      "mismatches": 0
+    }
+  },
+  "train_weight_audit": {
+    "studies": 12000,
+    "target_tokens_incl_eos": 638122,
+    "upweighted_tokens": 208195,
+    "upweighted_percent": 32.626206274035376,
+    "mentions": 63628,
+    "truncated_spans_left_at_weight_1": 678,
+    "rules_version": "ta-spans-1.0",
+    "rules_sha256": "ca0a1f80f52633d49185008271a8665dd09258066762fc0bc49f07ea243ee93b"
+  },
+  "n_train": 12000,
+  "n_val": 1000,
+  "torch_version": "2.11.0+cu128",
+  "loss": "mu*R_bits_per_study + lambda_f*NMSE + lambda_t*sum(w*m*nll)/sum(w*m)",
+  "frozen": "ResNet + all R2Gen params (requires_grad=False, eval mode)",
+  "compressai_version": "1.2.8"
+}

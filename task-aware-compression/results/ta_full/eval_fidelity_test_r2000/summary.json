@@ -1,0 +1,892 @@
+{
+  "split": "test",
+  "studies": 590,
+  "decoding": {
+    "sample_method": "beam_search",
+    "beam_size": 3,
+    "block_trigrams": 1,
+    "max_seq_length": 60
+  },
+  "r2gen_checkpoint_sha256": "a4941b73581a2fa560b84395bf07645423bb1170265b857a0e9e8dda28d6bb30",
+  "rules_version": "ta-spans-1.0",
+  "summaries": [
+    {
+      "condition": "A",
+      "studies": 590,
+      "bytes_per_study": 802816.0,
+      "bits_per_study": 6422528.0,
+      "compression_ratio": 1.0,
+      "text_nll": 1.0149531541865762,
+      "text_nll_weighted": 0.9915273836987504,
+      "feature_nmse": 0.0,
+      "identical_to_A_percent": 100.0,
+      "BLEU_1": 0.47930641429167103,
+      "BLEU_2": 0.314148999127962,
+      "BLEU_3": 0.22865645989701194,
+      "BLEU_4": 0.17428057342810305,
+      "ROUGE_L": 0.37070105299918243,
+      "CIDEr": 0.5626290243838982,
+      "ref_abn_precision": 0.16216216216216217,
+      "ref_abn_recall": 0.014742014742014743,
+      "ref_abn_f1": 0.02702702702702703,
+      "ref_mention_precision": 0.7172582619339045,
+      "ref_mention_recall": 0.6782407407407407,
+      "ref_mention_f1": 0.6972040452111838,
+      "ref_omissions_per_study": 1.230508474576271,
+      "ref_polarity_errors_per_study": 0.14915254237288136,
+      "ref_uncertainty_errors_per_study": 0.03389830508474576,
+      "ref_unsupported_findings_per_study": 0.05254237288135593,
+      "A_abn_precision": 1.0,
+      "A_abn_recall": 1.0,
+      "A_abn_f1": 1.0,
+      "A_mention_precision": 1.0,
+      "A_mention_recall": 1.0,
+      "A_mention_f1": 1.0,
+      "A_omissions_per_study": 0.0,
+      "A_polarity_errors_per_study": 0.0,
+      "A_uncertainty_errors_per_study": 0.0,
+      "A_unsupported_findings_per_study": 0.0,
+      "decode_vs_forward_max_abs_diff": 0.0,
+      "raw_bytes_per_study": 802816
+    },
+    {
+      "condition": "Bft",
+      "studies": 590,
+      "bytes_per_study": 248.08813559322033,
+      "bits_per_study": 1984.7050847457626,
+      "compression_ratio": 3236.0112589839587,
+      "text_nll": 1.0152244834702904,
+      "text_nll_weighted": 0.9918488612619497,
+      "feature_nmse": 0.12270794880213373,
+      "identical_to_A_percent": 93.72881355932203,
+      "BLEU_1": 0.47804603312822075,
+      "BLEU_2": 0.3090984343862379,
+      "BLEU_3": 0.22212769847202873,
+      "BLEU_4": 0.16727851945346028,
+      "ROUGE_L": 0.36738917249693936,
+      "CIDEr": 0.52906019328505,
+      "ref_abn_precision": 0.12195121951219512,
+      "ref_abn_recall": 0.012285012285012284,
+      "ref_abn_f1": 0.022321428571428572,
+      "ref_mention_precision": 0.7156224572823434,
+      "ref_mention_recall": 0.6786265432098766,
+      "ref_mention_f1": 0.6966336633663366,
+      "ref_omissions_per_study": 1.230508474576271,
+      "ref_polarity_errors_per_study": 0.14745762711864407,
+      "ref_uncertainty_errors_per_study": 0.03389830508474576,
+      "ref_unsupported_findings_per_study": 0.061016949152542375,
+      "A_abn_precision": 0.8292682926829268,
+      "A_abn_recall": 0.918918918918919,
+      "A_abn_f1": 0.8717948717948718,
+      "A_mention_precision": 0.9861676159479251,
+      "A_mention_recall": 0.988984088127295,
+      "A_mention_f1": 0.9875738439600733,
+      "A_omissions_per_study": 0.04576271186440678,
+      "A_polarity_errors_per_study": 0.0,
+      "A_uncertainty_errors_per_study": 0.0,
+      "A_unsupported_findings_per_study": 0.011864406779661017,
+      "decode_vs_forward_max_abs_diff": 0.0,
+      "raw_bytes_per_study": 802816
+    },
+    {
+      "condition": "C",
+      "studies": 590,
+      "bytes_per_study": 247.28474576271188,
+      "bits_per_study": 1978.277966101695,
+      "compression_ratio": 3246.524558253026,
+      "text_nll": 1.0088148100648897,
+      "text_nll_weighted": 0.9829563614044149,
+      "feature_nmse": 0.130269061350974,
+      "identical_to_A_percent": 72.88135593220339,
+      "BLEU_1": 0.4808032526498774,
+      "BLEU_2": 0.31743135248404925,
+      "BLEU_3": 0.2320150376779352,
+      "BLEU_4": 0.17910311839845167,
+      "ROUGE_L": 0.3760794907118222,
+      "CIDEr": 0.6031299694817343,
+      "ref_abn_precision": 0.2222222222222222,
+      "ref_abn_recall": 0.014742014742014743,
+      "ref_abn_f1": 0.027649769585253458,
+      "ref_mention_precision": 0.7122069523039612,
+      "ref_mention_recall": 0.6797839506172839,
+      "ref_mention_f1": 0.6956178444532175,
+      "ref_omissions_per_study": 1.2254237288135594,
+      "ref_polarity_errors_per_study": 0.14745762711864407,
+      "ref_uncertainty_errors_per_study": 0.03389830508474576,
+      "ref_unsupported_findings_per_study": 0.03559322033898305,
+      "A_abn_precision": 0.4444444444444444,
+      "A_abn_recall": 0.32432432432432434,
+      "A_abn_f1": 0.375,
+      "A_mention_precision": 0.9381568310428456,
+      "A_mention_recall": 0.9469604243166054,
+      "A_mention_f1": 0.9425380710659899,
+      "A_omissions_per_study": 0.22033898305084745,
+      "A_polarity_errors_per_study": 0.0,
+      "A_uncertainty_errors_per_study": 0.0,
+      "A_unsupported_findings_per_study": 0.025423728813559324,
+      "decode_vs_forward_max_abs_diff": 0.0,
+      "raw_bytes_per_study": 802816
+    },
+    {
+      "condition": "F",
+      "studies": 590,
+      "bytes_per_study": 248.50677966101694,
+      "bits_per_study": 1988.0542372881355,
+      "compression_ratio": 3230.559750100601,
+      "text_nll": 1.015232742565163,
+      "text_nll_weighted": 0.9918036240768635,
+      "feature_nmse": 0.12636484817554386,
+      "identical_to_A_percent": 95.42372881355932,
+      "BLEU_1": 0.4807287995367894,
+      "BLEU_2": 0.31381053859133734,
+      "BLEU_3": 0.22772207702032046,
+      "BLEU_4": 0.17329063948779283,
+      "ROUGE_L": 0.37074727121248524,
+      "CIDEr": 0.5550585918794522,
+      "ref_abn_precision": 0.1388888888888889,
+      "ref_abn_recall": 0.012285012285012284,
+      "ref_abn_f1": 0.022573363431151242,
+      "ref_mention_precision": 0.7148659626320065,
+      "ref_mention_recall": 0.6790123456790124,
+      "ref_mention_f1": 0.6964780371982588,
+      "ref_omissions_per_study": 1.228813559322034,
+      "ref_polarity_errors_per_study": 0.14745762711864407,
+      "ref_uncertainty_errors_per_study": 0.03389830508474576,
+      "ref_unsupported_findings_per_study": 0.05254237288135593,
+      "A_abn_precision": 0.9722222222222222,
+      "A_abn_recall": 0.9459459459459459,
+      "A_abn_f1": 0.958904109589041,
+      "A_mention_precision": 0.988220958570268,
+      "A_mention_recall": 0.99265605875153,
+      "A_mention_f1": 0.9904335436596784,
+      "A_omissions_per_study": 0.030508474576271188,
+      "A_polarity_errors_per_study": 0.0,
+      "A_uncertainty_errors_per_study": 0.0,
+      "A_unsupported_findings_per_study": 0.001694915254237288,
+      "decode_vs_forward_max_abs_diff": 0.0,
+      "raw_bytes_per_study": 802816
+    }
+  ],
+  "per_concept": {
+    "A": {
+      "aortic_tortuosity": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 38
+      },
+      "atelectasis": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 34
+      },
+      "cardiomegaly": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 34
+      },
+      "consolidation": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      },
+      "degenerative_spine": {
+        "precision": 0.16666666666666666,
+        "recall": 0.0967741935483871,
+        "f1": 0.12244897959183673,
+        "support": 62
+      },
+      "edema": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 7
+      },
+      "emphysema_hyperinflation": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 28
+      },
+      "fracture": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      },
+      "granuloma_calcification": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 37
+      },
+      "hernia": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      },
+      "lung_opacity": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 59
+      },
+      "nodule_mass": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 14
+      },
+      "pleural_effusion": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 17
+      },
+      "pleural_thickening": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      },
+      "pneumonia": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      "pneumothorax": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      },
+      "scarring_fibrosis": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 22
+      },
+      "support_device": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 28
+      }
+    },
+    "Bft": {
+      "aortic_tortuosity": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 38
+      },
+      "atelectasis": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 34
+      },
+      "cardiomegaly": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 34
+      },
+      "consolidation": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      },
+      "degenerative_spine": {
+        "precision": 0.1282051282051282,
+        "recall": 0.08064516129032258,
+        "f1": 0.09900990099009901,
+        "support": 62
+      },
+      "edema": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 7
+      },
+      "emphysema_hyperinflation": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 28
+      },
+      "fracture": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      },
+      "granuloma_calcification": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 37
+      },
+      "hernia": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      },
+      "lung_opacity": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 59
+      },
+      "nodule_mass": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 14
+      },
+      "pleural_effusion": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 17
+      },
+      "pleural_thickening": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      },
+      "pneumonia": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      "pneumothorax": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      },
+      "scarring_fibrosis": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 22
+      },
+      "support_device": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 28
+      }
+    },
+    "C": {
+      "aortic_tortuosity": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 38
+      },
+      "atelectasis": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 34
+      },
+      "cardiomegaly": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 34
+      },
+      "consolidation": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      },
+      "degenerative_spine": {
+        "precision": 0.2222222222222222,
+        "recall": 0.0967741935483871,
+        "f1": 0.1348314606741573,
+        "support": 62
+      },
+      "edema": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 7
+      },
+      "emphysema_hyperinflation": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 28
+      },
+      "fracture": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      },
+      "granuloma_calcification": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 37
+      },
+      "hernia": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      },
+      "lung_opacity": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 59
+      },
+      "nodule_mass": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 14
+      },
+      "pleural_effusion": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 17
+      },
+      "pleural_thickening": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      },
+      "pneumonia": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      "pneumothorax": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      },
+      "scarring_fibrosis": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 22
+      },
+      "support_device": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 28
+      }
+    },
+    "F": {
+      "aortic_tortuosity": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 38
+      },
+      "atelectasis": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 34
+      },
+      "cardiomegaly": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 34
+      },
+      "consolidation": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      },
+      "degenerative_spine": {
+        "precision": 0.14705882352941177,
+        "recall": 0.08064516129032258,
+        "f1": 0.10416666666666667,
+        "support": 62
+      },
+      "edema": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 7
+      },
+      "emphysema_hyperinflation": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 28
+      },
+      "fracture": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      },
+      "granuloma_calcification": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 37
+      },
+      "hernia": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      },
+      "lung_opacity": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 59
+      },
+      "nodule_mass": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 14
+      },
+      "pleural_effusion": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 17
+      },
+      "pleural_thickening": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      },
+      "pneumonia": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      "pneumothorax": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      },
+      "scarring_fibrosis": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 22
+      },
+      "support_device": {
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 28
+      }
+    }
+  },
+  "pairs": {
+    "F:Bft": {
+      "nll": {
+        "diff": 8.259094872675732e-06,
+        "ci95": [
+          -0.00019643624518395352,
+          0.00022347056669949625
+        ]
+      },
+      "wnll": {
+        "diff": -4.5237185086199894e-05,
+        "ci95": [
+          -0.0002638914761275729,
+          0.00017773953250652949
+        ]
+      },
+      "BLEU_4": {
+        "diff": 0.004202144048724973,
+        "ci95": [
+          -0.0006938160361162824,
+          0.010013964236588957
+        ]
+      },
+      "ROUGE_L": {
+        "diff": 0.0033580987155458764,
+        "ci95": [
+          -0.0005351661524985673,
+          0.007588962449247702
+        ]
+      },
+      "CIDEr": {
+        "diff": 0.025998398594402117,
+        "ci95": [
+          -0.008388727817793484,
+          0.07563889128147425
+        ]
+      },
+      "bits": {
+        "diff": 3.349152542372849,
+        "ci95": [
+          0.12135593220359059,
+          6.361016949152706
+        ]
+      },
+      "clin_vs_ref:abn_f1": {
+        "diff": 0.0002519348597226703,
+        "ci95": [
+          0.0,
+          0.0007538880528099101
+        ]
+      },
+      "clin_vs_ref:mention_f1": {
+        "diff": -0.00015562616807773821,
+        "ci95": [
+          -0.0031065864633914057,
+          0.0031047931446995854
+        ]
+      },
+      "clin_vs_ref:omissions_per_study": {
+        "diff": -0.0016949152542371504,
+        "ci95": [
+          -0.01864406779661021,
+          0.015254237288135464
+        ]
+      },
+      "clin_vs_ref:polarity_errors_per_study": {
+        "diff": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "clin_vs_ref:unsupported_findings_per_study": {
+        "diff": -0.008474576271186446,
+        "ci95": [
+          -0.018644067796610174,
+          0.0
+        ]
+      },
+      "clin_vs_A:abn_f1": {
+        "diff": 0.08710923779416924,
+        "ci95": [
+          0.021662474849094594,
+          0.17113880244161178
+        ]
+      },
+      "clin_vs_A:mention_f1": {
+        "diff": 0.0028596996996050894,
+        "ci95": [
+          -0.0018003272019586846,
+          0.007832766813291966
+        ]
+      },
+      "clin_vs_A:omissions_per_study": {
+        "diff": -0.015254237288135592,
+        "ci95": [
+          -0.037288135593220334,
+          0.0033898305084745783
+        ]
+      },
+      "clin_vs_A:polarity_errors_per_study": {
+        "diff": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "clin_vs_A:unsupported_findings_per_study": {
+        "diff": -0.01016949152542373,
+        "ci95": [
+          -0.020338983050847456,
+          -0.0033898305084745757
+        ]
+      }
+    },
+    "F:C": {
+      "nll": {
+        "diff": 0.006417932500273338,
+        "ci95": [
+          0.004812063298551245,
+          0.00802878441857328
+        ]
+      },
+      "wnll": {
+        "diff": 0.00884726267244862,
+        "ci95": [
+          0.007033646195116827,
+          0.010686438856488562
+        ]
+      },
+      "BLEU_4": {
+        "diff": -0.006279752823082574,
+        "ci95": [
+          -0.016449321581618086,
+          0.0044549117207425565
+        ]
+      },
+      "ROUGE_L": {
+        "diff": -0.005332219499336932,
+        "ci95": [
+          -0.012870008530307696,
+          0.0023569227250585176
+        ]
+      },
+      "CIDEr": {
+        "diff": -0.048071377602282084,
+        "ci95": [
+          -0.14289857949699314,
+          0.036639870012223644
+        ]
+      },
+      "bits": {
+        "diff": 9.776271186440454,
+        "ci95": [
+          6.752203389830339,
+          13.27491525423718
+        ]
+      },
+      "clin_vs_ref:abn_f1": {
+        "diff": -0.005076406154102216,
+        "ci95": [
+          -0.028369659553170192,
+          0.01639118586965715
+        ]
+      },
+      "clin_vs_ref:mention_f1": {
+        "diff": 0.0008601927450413438,
+        "ci95": [
+          -0.006509942372085628,
+          0.008329100984807755
+        ]
+      },
+      "clin_vs_ref:omissions_per_study": {
+        "diff": 0.003389830508474523,
+        "ci95": [
+          -0.03728813559322042,
+          0.047457627118643986
+        ]
+      },
+      "clin_vs_ref:polarity_errors_per_study": {
+        "diff": 0.0,
+        "ci95": [
+          -0.010169491525423707,
+          0.010169491525423735
+        ]
+      },
+      "clin_vs_ref:unsupported_findings_per_study": {
+        "diff": 0.016949152542372878,
+        "ci95": [
+          -0.0016949152542372892,
+          0.03563559322033895
+        ]
+      },
+      "clin_vs_A:abn_f1": {
+        "diff": 0.583904109589041,
+        "ci95": [
+          0.4318892460549386,
+          0.7314182899445071
+        ]
+      },
+      "clin_vs_A:mention_f1": {
+        "diff": 0.04789547259368854,
+        "ci95": [
+          0.039214406572589976,
+          0.05687103873490218
+        ]
+      },
+      "clin_vs_A:omissions_per_study": {
+        "diff": -0.18983050847457628,
+        "ci95": [
+          -0.23050847457627122,
+          -0.14745762711864407
+        ]
+      },
+      "clin_vs_A:polarity_errors_per_study": {
+        "diff": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "clin_vs_A:unsupported_findings_per_study": {
+        "diff": -0.023728813559322035,
+        "ci95": [
+          -0.03898305084745762,
+          -0.011864406779661017
+        ]
+      }
+    }
+  },
+  "matched_rate": {
+    "Bft-C": {
+      "ref_abn_f1": null,
+      "ref_mention_f1": null,
+      "A_mention_f1": null,
+      "BLEU_4": null,
+      "CIDEr": null,
+      "text_nll": null
+    },
+    "Bft-F": {
+      "ref_abn_f1": null,
+      "ref_mention_f1": null,
+      "A_mention_f1": null,
+      "BLEU_4": null,
+      "CIDEr": null,
+      "text_nll": null
+    },
+    "C-Bft": {
+      "ref_abn_f1": null,
+      "ref_mention_f1": null,
+      "A_mention_f1": null,
+      "BLEU_4": null,
+      "CIDEr": null,
+      "text_nll": null
+    },
+    "C-F": {
+      "ref_abn_f1": null,
+      "ref_mention_f1": null,
+      "A_mention_f1": null,
+      "BLEU_4": null,
+      "CIDEr": null,
+      "text_nll": null
+    },
+    "F-Bft": {
+      "ref_abn_f1": null,
+      "ref_mention_f1": null,
+      "A_mention_f1": null,
+      "BLEU_4": null,
+      "CIDEr": null,
+      "text_nll": null
+    },
+    "F-C": {
+      "ref_abn_f1": null,
+      "ref_mention_f1": null,
+      "A_mention_f1": null,
+      "BLEU_4": null,
+      "CIDEr": null,
+      "text_nll": null
+    }
+  }
+}
